@@ -1,0 +1,19 @@
+console.log("running...")
+
+const colors = ["red", "green", "blue"]
+const sports = ["cricket", "soccer", "tenins"]
+// console.log(colors[1])
+
+function replaceElemetWithIndex(arr, index, value) {
+    let newArr = [...arr]
+    newArr[index] = value
+    return newArr
+}
+
+let x = replaceElemetWithIndex(colors, 2, "yellow")
+console.log(colors)
+console.log(x)
+
+let y = replaceElemetWithIndex(sports, 0, "wrestling")
+console.log(sports)
+console.log(y)
